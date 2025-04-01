@@ -5,7 +5,7 @@ on:
     branches:
       - main  # ou la branche de votre choix
     paths:
-      - 'Dockerfile'  # ou tous les fichiers nécessaires à la build
+      - 'gns3-alpine/Dockerfile'  # ou tous les fichiers nécessaires à la build
 
 jobs:
   build:
